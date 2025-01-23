@@ -1,0 +1,222 @@
+
+
+:root{
+--white:#ffffff;
+--Azul:#05054b;
+--titulo:#808080;
+--sombra: rgba(0, 0, 0, 0.468);
+--textos: black;
+--fondo: black;
+--barra: rgb(2, 1, 36);
+--fondopie:#24262b;
+--fondobody:#faebd72c;
+--radio: 1.4rem;
+
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+.Cuerpo{
+    font-family: Plus Jakarta Sans;
+   background-color: var(--fondobody);
+
+}
+
+.Formulariocuerpo{
+    height: 15rem;
+    width: 100%;
+    text-align: center;
+    background-color: var(--fondopie);
+    color: var(--white);
+    ´padding: 2rem  ;
+    margin-top: 1rem;
+}
+
+.tituloformulario{
+    text-align: center;
+    color: var(--textos);
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.imgLogo{
+   text-align: center; 
+   margin: 0px auto;
+   font-size: 10px;
+   color: var(--white);
+   background-color: var(--fondo); 
+   padding: 1px;
+   
+}
+
+.EtivalLogo{
+    text-align: center;
+    color: var(--white);
+    font-size: 1.9rem;
+    font-weight: bold;
+    padding: 2rem;
+    text-shadow: -2px 5px rgba(255, 249, 249, 0.36);
+    background-color: var(--fondopie);
+    background-image: url(../imagen/Imagen1.png);
+    background-repeat: no-repeat;
+    background-size: 7rem 6rem;
+
+}
+
+.Etival{
+    text-align: center;
+    color: var(--white);
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-shadow: -2px 5px var(--sombra);
+}
+
+.imgref {
+    height: 50%;
+    width: 100%;
+    border-radius: .5rem;
+    background-image: url(../imagen/Flexographic-Printing-Inks-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem;
+}
+
+.margennav {
+    margin: 1px auto;
+    text-align: center;
+    color:white;
+    background-color: var(--barra);
+    text-decoration: none;
+    padding: 9px;
+    
+    
+   
+}
+
+.margennav a{
+    text-align: center;
+    color: var(--white);
+    background-color: var(--barra);
+    text-decoration: none;
+    padding: 5px;
+    transition-property: background-color, color;
+    transition-duration: .5s;
+    
+}
+
+.margennav a:hover{
+    text-align: center;
+    background-color: var(--white) ;
+    color: var(--Azul);
+    padding: 5px;
+    text-decoration: none;
+    border-radius: .15rem;
+    font-weight: bold;
+    
+
+}
+
+.imgenref{
+    image-resolution: 10px;
+    position: absolute;
+}
+
+.imglogo{
+    width: 5px;
+    height: 5px;
+}
+
+.Encabezado {
+
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 35ch;
+    animation: typing 2s steps(35),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing{
+from{width: 0 }
+}
+
+@keyframes blink {
+    50% { border-color: transparent}
+}
+
+
+.piedepagina{
+
+    background-color: var(--fondopie);
+    color: var(--white)
+
+}
+
+.Contenedormision {
+    background-image: url(../imagen/Imagen1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40rem;
+    width: 98%;
+    padding: auto 15px;
+    margin: 7rem auto;
+    border-radius: var(--radio);
+    border-style: ridge;
+    border-color: var(--Azul);
+
+}
+
+.Misionbanner, .visionbanner, .politicabanner {
+    text-align: center;
+    color: var(--Azul);
+    font-size: 4.5rem;
+    margin: 5rem 15px;
+    text-shadow: -2px 5px var(--sombra);
+}
+
+.textobanner{
+    text-align: justify;
+    color: var(--textos);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 5rem 15px;
+    text-shadow: -2px 5px var(--sombra);
+}
+
+.Contenedorvision{
+    background-image: url(../imagen/Imagen2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40rem;
+    width: 98%;
+    padding: auto 15px;
+    margin: 7rem auto;
+    border-radius: var(--radio);
+    border-style: ridge;
+    border-color: var(--Azul);
+}
+
+.Contenedorpolitica {
+    background-image: url(../imagen/Flexographic-Printing-Inks-1.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40rem;
+    width: 98%;
+    padding: auto 15px;
+    margin: 7rem auto;
+    border-radius: var(--radio);
+    border-style: ridge;
+    border-color: var(--Azul);
+
+}

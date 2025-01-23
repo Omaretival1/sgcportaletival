@@ -1,0 +1,104 @@
+:root{
+  --Primario:#000000;
+  --Secundiario: #DAE3F3;
+  --degradado: 
+  
+
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Montserrat", serif;
+font-optical-sizing: auto;
+font-style: normal;
+  
+}
+
+*,*:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* General */
+.Contenedor{
+  font-size: 1.875rem;
+  font-family: Arial, sans-serif;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 1.5rem;
+  
+  margin: 5rem auto;
+  
+}
+
+
+
+/* Contenedor principal */
+.Piramide {
+  position: relative;
+  margin:  auto 5rem;
+
+  
+}
+
+/* Niveles de la pirámide */
+.nivel {
+  position: relative;
+  text-align: left;
+  padding: 2rem 3rem;
+  margin: 5px 0;
+
+   background: rgb(2,0,36);
+background: linear-gradient(264deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 35%);
+ 
+  color: white; /* Color del texto */
+  border-left: 1px solid transparent; /* Triángulo izquierdo */
+  border-right: 1px solid transparent; /* Triángulo derecho */
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra inicial */
+}
+
+/* Ajuste de los niveles para hacer la pirámide */
+.nivel:nth-child(1) {
+  width: 90%;
+  margin-left: 10%;
+}
+
+.nivel:nth-child(2) {
+  width: 80%;
+  margin-left: 20%;
+}
+
+.nivel:nth-child(3) {
+  width: 70%;
+  margin-left: 30%;
+}
+
+.nivel:nth-child(4) {
+  width: 60%;
+  margin-left: 40%;
+}
+
+.nivel:nth-child(5) {
+  width: 50%;
+  margin-left: 50%;
+}
+
+.nivel:nth-child(6) {
+  width: 40%;
+  margin-left: 60%;
+}
+
+/* Efecto hover */
+.nivel:hover {
+
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,0.8145309149050245) 0%, rgba(9,9,121,0.8929622874540442) 63%, rgba(0,0,0,1) 100%);
+
+transform: translateY(-5px) scale(1.05); /* Efecto de flotación */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+}

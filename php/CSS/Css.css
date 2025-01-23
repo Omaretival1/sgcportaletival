@@ -1,0 +1,371 @@
+:root{
+
+--color:#000000;
+--base:#FFFFFF;
+--fondo:hsl(239, 89%, 15%);
+--prueba:rgb(0,48,150)
+--fondoprin: #000000;
+--content: aqua;
+--bordes:#FFFFFF;
+--Ancho-banner: 85%;
+--Ancho-bannervalor: 15%;
+--margen-banner: 10rem 2rem;
+--bannerpolitica: 25rem;
+--textos: #000000;
+--auto: auto;
+
+
+
+
+
+
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+Body{
+    
+    
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.Header{
+    text-align: center;
+    height: 16.5rem;
+    color:var(--base);
+    background: rgb(0,0,0);
+    background: linear-gradient(264deg, rgba(0,0,0,1) 0%, rgba(0,13,68,1) 35%, rgba(0,0,0,1) 100%);
+
+    background: rgb(11,5,119);
+background: linear-gradient(323deg, rgba(11,5,119,1) 0%, rgba(61,123,255,1) 63%, rgba(2,1,167,1) 100%);
+
+}
+
+.Barra{
+    width: 100%;
+    text-align: 10rem;
+    margin: auto 1rem;
+}
+
+.Logo{
+    margin-left: 0rem;
+    text-align: center;
+    margin-top: 1rem;
+    height: 5rem;
+    width: 15rem;
+}
+
+.Logo-footer{
+    margin-left: 0rem;
+    text-align: center;
+    margin-top: 1rem;
+    height: 1rem;
+    width: 1rem;
+    max-width: 12.5rem;
+    max-height: 14.7rem;
+
+}
+
+.Navegación{
+    text-decoration: none;
+    text-align: right;
+    margin: 5rem auto;
+    padding: 3rem;
+    background-color: var(--prueba);
+    
+    
+}
+
+.Navegaciónpir{
+    text-decoration: none;
+    text-align: right;
+    margin: 5rem auto;
+    padding: 3rem;
+    background-color: var(--prueba);
+    
+    
+}
+
+.Encabezado {
+
+    display: block;
+    font-size: 2rem;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 29ch;
+    animation: typing 2s steps(29),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    pad: 1rem;
+}
+
+@keyframes typing{
+from{width: 0 }
+}
+
+@keyframes blink {
+    50% { border-color: transparent}
+}
+
+.Boton {
+    text-align: left;
+    font-weight: 40;
+    padding: 1rem;
+    margin: 0 auto;
+    color: var(--base);
+    text-decoration: none;
+    border-style: solid;
+    border-width: .0125rem;
+    border-radius: .25rem;
+    border-color: var(--bordes);
+    
+    
+}
+
+
+
+
+
+.Contenedor-iso{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 0rem;
+} 
+.Iso{
+    text-align: left;
+    font-size: 1.895rem;
+    font-weight: 450;
+    margin-left: .85rem;
+}
+
+.Contenedormision{
+  
+    text-align: center;
+    margin: var(--margen-banner);
+    height: auto;
+    width: var(--Ancho-banner);
+    color: var(--textos);
+    background-size: 15rem 10rem;
+    border-style: solid;
+    border-width: 0.05rem;
+    border-radius: .5rem;
+    border-color: var(--color);
+    box-shadow: #99999938 -.5rem .5rem;
+   
+    
+
+
+}
+
+.Misionbanner{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.textobanner{
+   
+    text-align: justify;
+    margin: 2rem 7rem;
+    padding: 1rem;
+    font-size: 1.875rem;
+    
+    font-weight:400;
+    color: #090360;
+    text-shadow: #dddada -.3rem 0.3rem ;
+}
+
+.Boton1{
+    background-color: var(--base);
+    color: var(--color);
+    padding: .85rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    box-shadow: #99999938 -.5rem .5rem;
+}
+
+.Contenedorvision{
+    text-align: center;
+    margin: var(--margen-banner);
+    height: auto;
+    width: var(--Ancho-banner);
+    color: var(--textos);
+    background-size: 15rem 10rem;
+    border-style: solid;
+    border-width: 0.05rem;
+    border-radius: .5rem;
+    border-color: var(--color);
+    box-shadow: #99999938 -.5rem .5rem;
+    
+    
+}
+
+.visionbanner{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 200 ;
+}
+
+
+
+
+.Contenedorpolitica{
+    text-align: center;
+    margin: var(--margen-banner);
+    height: auto;
+    width: var(--Ancho-banner);
+    color: var(--textos);
+    background-size: 15rem 10rem;
+    border-style: solid;
+    border-width: 0.05rem;
+    border-radius: .5rem;
+    border-color: var(--color);
+    box-shadow: #99999938 -.5rem .5rem;
+    
+    
+}
+
+.politicabanner{
+    text-align: center;
+    color: #090360;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 200 ;
+}
+
+
+
+
+
+
+
+
+.Misión{
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+
+
+
+.Footer-sección{
+    background: rgb(11,5,119);
+    background: linear-gradient(323deg, rgba(11,5,119,1) 0%, rgba(61,123,255,1) 63%, rgba(2,1,167,1) 100%);
+    
+}
+
+.Navegación-footer{
+    text-align: center;
+    color: var(--base);
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+.Boton-footer{
+    text-align: right;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: var(--fondo);
+    color: var(--base);
+    text-decoration: none;
+    border-style: solid;
+    border-width: .0125rem;
+    border-radius: .25rem;
+    border-color: var(--bordes);
+
+}
+
+.Copyrigth{
+    font-family: sans-serif;
+    text-align: center;
+    color: var(--base);
+
+}
+
+
+
+/* PAgina de visión*/
+
+.Contenedorvalor{
+    text-align: center;
+    margin: var(--margen-banner); /*aqui*/
+    height: 35rem;
+    width: 20rem;
+    color: var(black);
+    background-size: 15rem 10rem;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: var(--fondo);
+    border-width: 0.005rem;
+    margin-top: 5rem;
+    box-shadow: #d5d5d5 -1.5rem .5rem;
+   
+}
+
+.Valores{
+    text-align: center;
+    font-size: 6rem;
+    font-style: oblique;
+    font-family:sans-serif;
+   text-shadow: #9c9c9c42 -4px 5px;
+   margin: 5rem auto;
+   color: #0d0396;
+
+
+    
+    
+
+}
+
+
+
+@media screen {
+    
+}
+
+.fila{
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    width: 10rem;
+    padding: 1rem;
+   
+  
+
+}
+
+.img1{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    width: 16.5rem;
+    height: 16.5rem;
+}
+.Barra{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    align-items: center;
+}
+
+
+.imagen iso{
+    flex: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(3 5fr);
+    background-image: url(..//Img/);
+}
